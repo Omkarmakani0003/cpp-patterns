@@ -1,9 +1,9 @@
 /*
 
-1 2 3 4
-5 6 7 8
-9 10 11 12 
-13 14 15 16
+a b c d
+a b c d 
+a b c d
+a b c d
 
 */
 
@@ -12,13 +12,12 @@
 using namespace std;
 
 int main(){
-    int count = 0; 
     for(int i = 1; i <= 4; i++){
+        char alpha = 'A';
         for(int j = 1; j <= 4; j++){
-            count = count + 1;
-            cout << count;
+            cout << alpha << " ";
+            alpha = alpha + 1;
         }
         cout << endl;
     }
-
 }
